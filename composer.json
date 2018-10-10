@@ -1,0 +1,24 @@
+{
+    "name": "haungshimin/1010",
+    "description": "1010",
+    "authors": [
+        {
+            "name": "3A532027",
+            "email": "s3a532027@student.nuct.edu.tw"
+        }
+    ],
+    "require": {},
+  "autoload": {
+    "psr-4": {
+      "Demo\\":"./src/Demo"
+    },
+    "classmap": [
+      "./my_library",
+      "./other_library"
+    ],
+    "files": [
+      "src/Illuminate/Foundation/helpers.php",
+      "src/Illuminate/Support/helpers.php"
+    ]
+  }
+}
